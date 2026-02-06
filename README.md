@@ -1,37 +1,39 @@
-# Timer (JavaScript)
+# Stopwatch (JavaScript)
 
-En enkel stoppeklokke laget som del av JavaScript-opplæringen ved Get Academy.
-Prosjektet er bygget med **vanilla JavaScript**.
-
----
-
-## Funksjonalitet
-
-- **Start Timer!** – starter stoppeklokka
-- **Pause** – stopper klokka, lagrer rundetid og nullstiller telleren
-- **Stop & Reset** – stopper klokka og fjerner alle rundetider
+A simple stopwatch built as part of my JavaScript studies at Get Academy.
+The project is implemented using **vanilla JavaScript** with a lightweight MVC-inspired structure.
 
 ---
 
-## Fokus i oppgaven
+## Features
 
-- Variabler (`let` / `const`)
-- `setInterval()` og `clearInterval()`
-- Enkel DOM-manipulasjon
-- Strukturert prosjektoppsett (MVC light)
+- **Start** – starts the stopwatch
+- **Pause** – pauses the timer, stores a lap time, and resets the counter
+- **Stop & Reset** – stops the timer and clears all lap times
 
 ---
 
-## Teknologi
+## Focus of the assignment
+
+This assignment focuses on practicing core JavaScript concepts:
+
+- Variables (`let` and `const`)
+- `setInterval()` and `clearInterval()`
+- Basic DOM manipulation
+- Structured project setup (MVC light)
+
+---
+
+## Technologies
 
 - HTML
 - CSS
 - JavaScript (ES Modules)
-- Ingen rammeverk eller biblioteker
+- No frameworks or libraries
 
 ---
 
-## Prosjektstruktur
+## Project
 
 ```text
 index.html
@@ -40,9 +42,20 @@ src/
   app.js
   view/
   controller/
-  model/        # Tom i denne oppgaven (beholdes pga. template)
+  model/        # kept for template consistency
   styles/
 ```
 
-## Hvordan kjøre prosjektet
-Åpne `index.html` med **Live Server** (anbefalt) eller en annen lokal server.
+---
+
+## How to run the project
+
+Open `index.html` using **Live Server** (recommended) or any local static server.
+No installation or build steps are required.
+
+---
+
+## Notes
+
+This is a learning assignment created to practice fundamental JavaScript concepts,
+not a production-ready application.
