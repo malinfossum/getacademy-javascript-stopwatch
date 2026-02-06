@@ -1,7 +1,11 @@
-# Stopwatch (JavaScript)
+# Stopwatch
 
 A simple stopwatch built as part of my JavaScript studies at Get Academy.
-The project is implemented using **vanilla JavaScript** with a lightweight MVC-inspired structure.
+The project is implemented using **vanilla JavaScript**.
+
+## Live Demo
+
+https://malinfossum.github.io/getacademy-javascript-stopwatch/
 
 ---
 
@@ -13,7 +17,7 @@ The project is implemented using **vanilla JavaScript** with a lightweight MVC-i
 
 ---
 
-## Focus of the assignment
+## Assignment Focus
 
 This assignment focuses on practicing core JavaScript concepts:
 
@@ -28,34 +32,11 @@ This assignment focuses on practicing core JavaScript concepts:
 
 - HTML
 - CSS
-- JavaScript (ES Modules)
-- No frameworks or libraries
+- JavaScript
 
 ---
 
-## Project
+## How to run
 
-```text
-index.html
-src/
-  main.js
-  app.js
-  view/
-  controller/
-  model/        # kept for template consistency
-  styles/
-```
-
----
-
-## How to run the project
-
-Open `index.html` using **Live Server** (recommended) or any local static server.
-No installation or build steps are required.
-
----
-
-## Notes
-
-This is a learning assignment created to practice fundamental JavaScript concepts,
-not a production-ready application.
+Open index.html directly in your browser
+or use Live Server in VS Code.
