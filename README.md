@@ -11,7 +11,6 @@ https://malinfossum.github.io/getacademy-javascript-stopwatch/
 
 ### Run Locally
 
-#### Option 1 – Static Project
 Open `index.html` directly in your browser  
 or use **Live Server** in VS Code.
 
