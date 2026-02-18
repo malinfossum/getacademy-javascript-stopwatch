@@ -1,42 +1,32 @@
 # Stopwatch
 
-A simple stopwatch built as part of my JavaScript studies at Get Academy.
-The project is implemented using **vanilla JavaScript**.
+A simple stopwatch application built using vanilla JavaScript as part of my studies at Get Academy.
 
-## Live Demo
+---
 
+## Usage
+
+### Live Demo
 https://malinfossum.github.io/getacademy-javascript-stopwatch/
+
+### Run Locally
+
+#### Option 1 – Static Project
+Open `index.html` directly in your browser  
+or use **Live Server** in VS Code.
 
 ---
 
 ## Features
 
-- **Start** – starts the stopwatch
-- **Pause** – pauses the timer, stores a lap time, and resets the counter
-- **Stop & Reset** – stops the timer and clears all lap times
+- Start, pause, and reset controls
+- Timer logic using `setInterval()` and `clearInterval()`
+- Dynamic time updates in the DOM
 
 ---
 
-## Assignment Focus
+## Documentation
 
-This assignment focuses on practicing core JavaScript concepts:
+This project implements a functional stopwatch with time tracking and user controls.
 
-- Variables (`let` and `const`)
-- `setInterval()` and `clearInterval()`
-- Basic DOM manipulation
-- Structured project setup (MVC light)
-
----
-
-## Technologies
-
-- HTML
-- CSS
-- JavaScript
-
----
-
-## How to run
-
-Open index.html directly in your browser
-or use Live Server in VS Code.
+It was built to practice core JavaScript concepts including variables, intervals, DOM manipulation, and basic application state handling.
